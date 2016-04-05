@@ -37,56 +37,6 @@ function cwrc_node_page_node_info() {
 function cwrc_node_page_rdf_default_mappings() {
   $schemaorg = array();
 
-  // Exported RDF mapping: comment_node_page
-  $schemaorg['comment']['comment_node_page'] = array(
-    'rdftype' => array(
-      0 => 'sioc:Post',
-      1 => 'sioct:Comment',
-    ),
-    'title' => array(
-      'predicates' => array(
-        0 => 'dc:title',
-      ),
-    ),
-    'created' => array(
-      'predicates' => array(
-        0 => 'dc:date',
-        1 => 'dc:created',
-      ),
-      'datatype' => 'xsd:dateTime',
-      'callback' => 'date_iso8601',
-    ),
-    'changed' => array(
-      'predicates' => array(
-        0 => 'dc:modified',
-      ),
-      'datatype' => 'xsd:dateTime',
-      'callback' => 'date_iso8601',
-    ),
-    'comment_body' => array(
-      'predicates' => array(
-        0 => 'content:encoded',
-      ),
-    ),
-    'pid' => array(
-      'predicates' => array(
-        0 => 'sioc:reply_of',
-      ),
-      'type' => 'rel',
-    ),
-    'uid' => array(
-      'predicates' => array(
-        0 => 'sioc:has_creator',
-      ),
-      'type' => 'rel',
-    ),
-    'name' => array(
-      'predicates' => array(
-        0 => 'foaf:name',
-      ),
-    ),
-  );
-
   // Exported RDF mapping: page
   $schemaorg['node']['page'] = array(
     'rdftype' => array(
