@@ -71,9 +71,8 @@ function cwrc_node_page_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'og_ui',
         'settings' => array(),
-        'type' => 'og_list_default',
+        'type' => 'hidden',
         'weight' => 1,
       ),
       'featured_carousel' => array(
