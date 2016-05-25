@@ -1,4 +1,4 @@
-name = CWRC Basic page
+name = CWRC: Page Content Type
 description = The CWRC Basic Page content type.
 core = 7.x
 package = CWRC Content Types
