@@ -10,7 +10,7 @@
 function cwrc_node_page_field_default_field_bases() {
   $field_bases = array();
 
-  // Exported field_base: 'og_group_ref'
+  // Exported field_base: 'og_group_ref'.
   $field_bases['og_group_ref'] = array(
     'active' => 1,
     'cardinality' => -1,

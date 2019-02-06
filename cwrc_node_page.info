@@ -4,6 +4,7 @@ core = 7.x
 package = CWRC Content Types
 version = 7.x-1.0
 project = cwrc_node_page
+dependencies[] = cwrc_baseline
 dependencies[] = cwrc_components
 dependencies[] = entityreference
 dependencies[] = entityreference_prepopulate

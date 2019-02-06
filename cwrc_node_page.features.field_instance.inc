@@ -10,7 +10,7 @@
 function cwrc_node_page_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-page-body'
+  // Exported field_instance: 'node-page-body'.
   $field_instances['node-page-body'] = array(
     'bundle' => 'page',
     'default_value' => NULL,
@@ -67,7 +67,7 @@ function cwrc_node_page_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-page-og_group_ref'
+  // Exported field_instance: 'node-page-og_group_ref'.
   $field_instances['node-page-og_group_ref'] = array(
     'bundle' => 'page',
     'default_value' => NULL,
@@ -122,8 +122,8 @@ function cwrc_node_page_field_default_field_instances() {
           'action_on_edit' => 1,
           'fallback' => 'none',
           'providers' => array(
-            'og_context' => 0,
-            'url' => 1,
+            'og_context' => 1,
+            'url' => 0,
           ),
           'skip_perm' => 'administer nodes',
           'status' => 1,
@@ -146,14 +146,14 @@ function cwrc_node_page_field_default_field_instances() {
     ),
     'widget' => array(
       'active' => 0,
-      'module' => 'og',
+      'module' => 'options',
       'settings' => array(),
-      'type' => 'og_complex',
+      'type' => 'options_buttons',
       'weight' => 41,
     ),
   );
 
-  // Exported field_instance: 'node-page-title_field'
+  // Exported field_instance: 'node-page-title_field'.
   $field_instances['node-page-title_field'] = array(
     'bundle' => 'page',
     'default_value' => NULL,
